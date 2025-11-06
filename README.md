@@ -8,7 +8,7 @@
 
 
 
-### Prjects:
+### Projects:
  ## Application:
  -  Database:
  -  Backend:
