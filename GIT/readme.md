@@ -1,3 +1,20 @@
+![Git Logo](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png) Git
+
+Git is a Version Control System (VCS).
+
+Specifically, it’s a Distributed Version Control System (DVCS).
+
+It is used to track changes in code or files over time.
+
+Every developer has a full copy of the repository, so you can work offline.
+
+
+
+
+
+
+
+
 | Feature                 | CVCS (Centralized VCS)                                                                     | DVCS (Distributed VCS, e.g., Git)                                                             |
 | ----------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
 | **Definition**          | Version control system where a single central server stores all files and version history. | Version control system where every user has a full copy of the repository, including history. |
