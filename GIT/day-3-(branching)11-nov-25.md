@@ -43,6 +43,10 @@
 # commands:
 ### create feature branch
 ````
+git checkout -b develope
+````
+or
+````
 git branch feature
 ````
 ### switch to feature branch
@@ -75,3 +79,11 @@ git merge feature         # merge feature branch into main
 git push origin main
 ````
 
+## fetch
+````
+git fetch origin <branchname>
+````
+## pull
+````
+git pull origin <branchname>
+````
