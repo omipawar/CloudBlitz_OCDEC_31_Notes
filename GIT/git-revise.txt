@@ -1,0 +1,57 @@
+Todays Agenda: Git & GitHub Revision(one last time)
+1. Git Basics:
+  - what is what ?
+  - why git is used?
+  - remote repo vs local repo?
+  - git workflow
+  - imp git commands
+  - branching strategy 
+---
+#what is what ?
+- Git is version control sofware
+#why git is used?
+- to track code changes
+- to maintain diff versions of code
+
+#remote/central repo vs local repo?
+remote repo:
+  - for code integration
+local repo: 
+  - for code changes and track diff version
+#git workflow
+remote repo(Github)  
+#Working Dir  --> Staging Area --> Local Repo --> Push --> Github
+
+#imp git commands
+ -> git clone https://github.com/abhipraydhoble/demo.git 
+ -> cd demo(Working Dir)
+  # set up identity
+  - git config --global user.name "abhipray"
+  - git config --global user.email "abhipraydh96@gmail.com"
+   # dev will create files here for example
+   - touch index.html
+   # add file into staging area 
+   - git add index.html 
+
+   # view staged files
+   - git status
+
+   # commit file changes and add message
+   - git commit -m "update login page"
+   # view commit history
+   - git log 
+  
+   # push to github/remote/central repo
+   - git push origin main
+
+   # branching strategy
+     * Main: keep production ready code here
+     * develope: integrate all code here 
+     * feature: create new features here 
+     * release: final testing done here 
+     * hotfix: solve urgent issues here 
+
+  # add code from one branch to another branch
+  - merge 
+  - rebase
+  # fetch & pull 
