@@ -1,6 +1,6 @@
 **Date: 21 Nov 2025**
 
-# $${\color{lightblue}{\textbf{🐳 Docker – Complete Notes}}}$$
+# $${\color{lightblue}{\textbf{🐳 Docker}}}$$
 
 ---
 
