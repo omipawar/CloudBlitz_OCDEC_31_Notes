@@ -97,3 +97,27 @@ Deletes all Docker image from the system.
 ```
 docker rmi -f $(docker images)
 ```
+---
+### docker save command (create tar file from image)
+-note: make sure image is present on your machine
+````
+docker save -o myimage.tar  nginx
+````
+
+### docker load  (extract image from tar file)
+````
+docker load -i myimage.tar
+````
+
+### copy file from machine to container
+````
+touch index.html
+````
+````
+docker cp index.html  c1:/var/www/html/
+````
+### copy file  container to machine 
+````
+````
+docker cp c1:/var/www/html/index.html  .
+````
