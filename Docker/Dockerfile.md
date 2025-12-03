@@ -36,7 +36,20 @@ Share your application anywhere
 ---
 
 🧩 Dockerfile Instructions Explained
+````
+        # FROM: define base image
+        # LABEL author="abhipray"
+        # RUN: executes commands during image build
+        # WORKDIR: sets working dir inside cont
+        # COPY: copies file from local machine to container
+        # ADD:  same as copy but it can download  from internet
+        # EXPOSE: shows which port cont will use
+        # ENV: runtime variable
+        # ARG: build time variable
 
+        # CMD: (low priority) runs the app 
+        # ENTRYPOINT :(high priority) same as CMD
+````
 1️⃣ FROM
 
 Sets the base image.
@@ -92,37 +105,31 @@ Create an index.html file with this content:
 
 
 ---
-
-🚀 Example
+```Dockerfile
 # Use Amazon Linux as base image
 FROM amazonlinux
-
 # Install httpd package
 RUN yum update -y 
 RUN yum install -y httpd
-
 # Copy custom index.html
 COPY index.html /var/www/html/index.html
-
 # Expose port 80
 EXPOSE 80
-
 # Run httpd in foreground
 CMD ["httpd", "-D", "FOREGROUND"]
-
-
+```
 ---
 
 ▶️ How to Build & Run
 
 🔹 1. Build Image
-
+````
 docker build -t my-webserver .
-
+````
 🔹 2. Run Container
-
+````
 docker run -d -p 80:80 my-webserver
-
+````
 🔹 3. Verify
 
 Open your browser →
