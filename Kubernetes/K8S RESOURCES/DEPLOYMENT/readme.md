@@ -2,7 +2,7 @@
 - Date: 12-12-25
 ---
 
-```manifest
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
