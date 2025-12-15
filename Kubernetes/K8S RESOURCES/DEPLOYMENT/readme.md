@@ -37,3 +37,11 @@ spec:
      protocol: "TCP"
  type: NodePort
  ```
+
+#### Commands:
+````
+kubectl get deploy
+````
+````
+kubectl get svc
+````
