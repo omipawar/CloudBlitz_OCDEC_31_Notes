@@ -1,14 +1,14 @@
 # Topic: ReplicationController & Replicaset
   - Date: 12-12-25
 
-## Diff between rc and rs 
+**Que. Diff between rc and rs ?**
 **ReplicationController:**
 - support only equality based selector
 
 **ReplicaSet:**
 - support equality based as well as set based selector
 ---
-### selector
+#### selector
 **types:**
 1. equality based selector 
 2. set based selectors
