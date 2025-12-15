@@ -1,6 +1,6 @@
 # Topic: ReplicationController & Replicaset
   - Date: 12-12-25
-
+---
 **Que. Diff between rc and rs ?**
 **ReplicationController:**
 - support only equality based selector
