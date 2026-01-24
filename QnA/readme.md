@@ -65,7 +65,6 @@
 28. explain concept of ssl ?
 29. explain CDN ?
 30. what is edge location ?
-31. explain OAC/OAI in cloudfront ?
 32. what is latency?
 --- 
 ### Devops: 
